@@ -1,0 +1,947 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:300);
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+body {
+  background-color: #ffffff;
+  background-image: url("https://arararesultados.com.br/wp-content/uploads/2022/06/eco-especifi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+
+}
+
+
+.active {
+  color: rgb(0, 0, 0) !important
+}
+
+
+@media (min-width: 1051px) {
+  .caixa {
+    width: 500px;
+    margin: auto;
+
+  }
+}
+
+@media (max-width: 1050px) {
+  .caixa {
+    width: 900px;
+    margin: auto;
+
+  }
+}
+
+@media (max-width: 955px) {
+  .caixa {
+    width: 600px;
+    margin: auto;
+
+  }
+}
+
+@media (max-width: 660px) {
+  .caixa {
+    width: 440px;
+    margin: auto;
+
+  }
+}
+
+@media (max-width: 955px) {
+  .caixa {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+}
+
+
+#Log {
+  width: 100% !important;
+  margin-top: -3vh;
+
+}
+
+.table-wrapper {
+  max-width: auto;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+    /* Ajuste a largura para dispositivos menores */
+  }
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: -8%;
+}
+
+.center{
+  margin-bottom: 20px;
+}
+
+.caixa {
+  margin-top: 9%;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .caixa {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .caixa {
+    margin-top: 5%;
+    /* Ajuste a margem superior conforme necessário */
+    padding: 10px;
+    /* Ajuste o padding conforme necessário */
+   
+  }
+}
+
+
+#Log {
+  padding: 20px;
+  margin-top: 2%;
+  width: 90vw !important;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  overflow: hidden;
+  /* Evita que o conteúdo vaze quando há zoom */
+}
+
+
+
+.table-responsive {
+  width: 300%;
+  /* Alterado para 100% */
+  height: 100%;
+  overflow-x: auto;
+  max-width: 100%;
+  /* Limita a largura máxima em relação ao elemento pai */
+}
+
+
+
+body {
+  font-family: "Manrope", ;
+
+}
+
+h1 {
+  font-family: "Manrope", ;
+}
+
+.Google {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-size: 0%;
+}
+
+.botaoAcessar {
+  font-family: "Manrope", ;
+  text-transform: uppercase;
+  outline: 0;
+  background: #FF6600;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+#Registrar {
+  margin-bottom: 20px;
+}
+
+.botaoCadastrar {
+  color: #FF6600;
+  font-family: "Manrope", ;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+
+.camposDigitar {
+  font-family: "Manrope", ;
+  border: solid 1px black;
+  padding: 10px;
+  width: 357.86px;
+}
+
+.CorBotãoVerificar {
+  margin-top: 5%;
+  font-family: "Manrope", ;
+  text-transform: uppercase;
+  outline: 0;
+  background: #d37400;
+  width: 97.8%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+.corBotãoDeletar {
+  font-family: "Manrope";
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(242, 72, 89);
+  width: 60%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+.CorBotãoSair {
+  font-family: "Manrope", ;
+  text-transform: uppercase;
+  background: #DD051A;
+  width: 30%;
+  border: 1;
+  border-color: white;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-bottom: -300px;
+}
+
+.acesso:hover,
+.form .Acesso:active,
+.form .Acesso:focus {
+  background: #d37400;
+}
+
+.Lcadastrar {
+  padding-top: 20px;
+  font-size: 12px;
+  box-sizing: border-box;
+  margin: 0 0 15px;
+}
+
+#Carregando {
+  position: absolute;
+  top: calc(35% - 100px);
+  left: calc(50% - 100px);
+  z-index: 1;
+}
+
+/* metodo do professor de alinhar o carregamento, n deu certo
+#Carregando{
+    position: absolute;
+    top: calc (50% - 100px);
+    left: calc (50% - 200px);
+    z-index: 1;
+*/
+@media screen and (max-width: 768px) {
+  #img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+#ImgUsuarioo {
+  background-image: url(/img/google.png);
+  margin-top: 50px;
+  height: 100px;
+  border-radius: 100%;
+
+}
+
+
+.CorBotaoDeletarExcluir {
+  font-family: "Manrope", ;
+  text-transform: uppercase;
+  background: rgb(221, 5, 26);
+  border: 0;
+  padding: 6px;
+  width: 100px;
+  color: #FFFFFF;
+  font-size: 12;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.CorBotaoAlterar {
+  font-family: "Manrope", ;
+  text-transform: uppercase;
+  background: #004AAD;
+  border: 0;
+  padding: 6px;
+  width: 100px;
+  color: #FFFFFF;
+  font-size: 12;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+
+#senha_email,
+#senha_senha,
+#senha_plataforma,
+#senha_setor,
+#senha_info,
+#senha_link,
+#senha_cliente {
+  font-family: "Manrope", ;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 1px solid black;
+  /* Adicione uma borda preta */
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 13px;
+  border-radius: 4px;
+
+}
+
+#senha_email::placeholder,
+#senha_senha::placeholder,
+#senha_plataforma::placeholder,
+#senha_setor::placeholder,
+#senha_info::placeholder,
+#senha_link::placeholder,
+#senha_cliente::placeholder {
+  color: #757575;
+  /* Defina a cor do texto do placeholder como preto */
+}
+
+ul {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 12em;
+  background-color: #F8F8F8;
+  border-radius: 10px;
+  width: 350px;
+  padding: 5px;
+}
+
+li {
+  padding: 15px;
+  text-align: center;
+  height: 30px;
+}
+
+li:hover {
+  background-color: #ddd;
+  border-radius: 8px;
+}
+
+.IniOculta {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  display:none;
+}
+
+.IniOculta button {
+  margin: 2px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .IniOculta {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .IniOculta button {
+    margin: 5px;
+  }
+}
+
+/* Estilos para dispositivos menores */
+@media (max-width: 600px) {
+  .Login {
+    text-align: center;
+  }
+
+  .camposDigitar {
+    width: 100%;
+  }
+
+  .botaoAcessar {
+    width: 100%;
+  }
+}
+
+
+
+/* Estilos adicionais para tornar os botões responsivos */
+@media (max-width: 768px) {
+  .IniOculta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .IniOculta button {
+    margin: 5px 0;
+  }
+}
+
+#FrmSenhasBtnGravar {
+  text-transform: uppercase;
+  outline: 0;
+  background: #037602;
+  width: 50%;
+  border: 1;
+  border-color: white;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 60px;
+  border-radius: 15px;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 600px) {
+  #FrmSenhasBtnGravar {
+    width: 50%;
+    /* Ajuste a largura conforme necessário */
+    height: 40px;
+    /* Ajuste a altura conforme necessário */
+    font-size: 16px;
+    margin-right: 100px;
+    margin-left: 100px;
+    /* Ajuste o tamanho da fonte conforme necessário */
+  }
+}
+
+#FrmSenhas {
+  width: 100%;
+  /* Largura fixa em pixels */
+  height: 110%;
+  /* Altura fixa em pixels */
+  margin-top: -10px;
+  position: relative;
+}
+
+
+
+
+
+#FrmAutentica {
+  align-items: center;
+  display: flexbox;
+  text-align: center;
+
+}
+
+#FrmAutenticaTitulo {
+  font-family: "Manrope", ;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.dividercenterfixed {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+#listaSenhas {
+  margin-top: 80px;
+  text-align: center;
+  align-content: center;
+  width: max-content;
+}
+
+@media screen and (max-width: 576px) {
+  #listaSenhas {
+    margin-top: 40px;
+    /* Ajuste o valor conforme necessário para dispositivos móveis */
+    width: 100%;
+    /* Altera para ocupar toda a largura disponível */
+  }
+}
+
+#ulListaSenhas {
+  width: 100%;
+}
+
+#dividerFrm label {
+  display: inline-block;
+  width: 100%;
+
+
+}
+
+/* Estilos adicionais */
+#filtro,
+#filtro2 {
+  width:20%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  #dividerFrm {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+
+#TituloFormMeio {
+  margin-bottom: 25px;
+  margin-right: 40px;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #TituloFormMeio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* Ajuste o valor conforme necessário para dispositivos móveis */
+    margin-left: 30px;
+    margin-right: 15px;
+    font-size: 30px;
+    /* Ajuste o valor conforme necessário para dispositivos móveis */
+  }
+}
+
+.alternative {
+  text-transform: uppercase;
+  outline: 0;
+  background: #037602;
+  width: 40%;
+  border: 1;
+  border-color: white;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 15px;
+  
+}
+
+.alternative2 {
+  text-transform: uppercase;
+  outline: 0;
+  background: #DD051A;
+  width: 40%;
+  border: 1;
+  border-color: white;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 10px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: -30px;
+}
+
+
+#filtro,
+#filtro2 {
+  font-family: "Manrope", ;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 1px solid black;
+  /* Adicione uma borda preta */
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 10px;
+  color: black;
+  
+  /* Defina a cor do texto como preto */
+}
+
+@media screen and (max-width: 768px) {
+
+  #filtro,
+  #filtro2 {
+    margin-bottom: 10px;
+    /* Ajuste o valor conforme necessário para dispositivos móveis */
+  }
+}
+
+.label-div {
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table-wrapper .table-responsive {
+  max-width: auto;
+  /* Largura máxima igual à largura da janela */
+  max-height: 70vh;
+  /* Altura máxima igual a 70% da altura da janela */
+  overflow-y: auto;
+ 
+}
+
+
+.table-wrapper {
+  max-width: auto;
+  /* Largura máxima igual à largura da janela */
+  max-height: 70vh;
+  /* Altura máxima igual a 70% da altura da janela */
+  overflow-y: auto;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .table-wrapper {
+    max-height: 250px;
+    /* Ajuste a altura máxima para dispositivos menores */
+  }
+}
+
+
+#ImgUsuario {
+  margin-top: 50px;
+  height: 80px;
+  border-radius: 100%;
+  padding-bottom: 10px;
+}
+
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  text-align: center;
+
+  /* Estilos para todos os elementos com a classe 'nav-link' */
+}
+
+.nav-link[href="#"][onclick="setSelectedNav(this)"] {
+  background: linear-gradient(45deg, #FF4D00, #FF4D00);
+  background-size: 200% 200%;
+  animation: brilho 4s ease-in infinite;
+  transition: background 0.5s cubic-bezier(0.5, 0.1, 0.4, 0.9);
+  padding: 10px 20px;
+  margin: 2px;
+  color: white;
+  border: none;
+
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  font-weight: bold;
+  /* ou font-weight: 700; */
+}
+
+@media screen and (max-width: 768px) {
+  #img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+#filtro {
+  font-size: 20px;
+  width: 750px;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  #filtro {
+    font-size: 20px;
+    width: 20%;
+    max-width: auto;
+    height: 40px;
+  }
+}
+
+#filtro2 {
+  font-size: 20px;
+  width: 750px;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  #filtro2 {
+    font-size: 20px;
+    width: 20%;
+    max-width: auto;
+    height: 40px;
+  }
+}
+
+.text {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#totalSenhas {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .col-xs-8 {
+    width: 100%;
+  }
+}
+
+.row {
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+
+.container {
+  max-width: 100vw;
+  /* Define a largura máxima igual à largura do body */
+  box-sizing: border-box;
+  /* Inclui a largura da borda e padding na largura total */
+  margin-top: -80px;
+  padding: 20px;
+  /* Adicione padding conforme necessário */
+  /* Resto dos estilos do .container */
+
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin-top: -40px;
+    /* Ajuste o valor conforme necessário para dispositivos móveis */
+  }
+}
+
+.col-md-4 {
+  height: 80%;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .col-md-4 {
+    height: 80%;
+    width: 100%;
+    /* Ajuste o valor conforme necessário para dispositivos móveis */
+  }
+}
+
+#filtro {
+  font-size: 20px;
+  width: 20%;
+  height: 40px;
+}
+
+@media screen and (min-width: 783px) {
+  #filtro {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+#filtro2 {
+  font-size: 20px;
+  width: 20%;
+  height: 40px;
+}
+
+@media screen and (min-width: 783px) {
+  #filtro2 {
+    width: 20%;
+    max-width: none;
+  }
+}
+
+label#filtro,
+label#filtro2 {
+  display: 20%;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Estilos adicionais */
+#filtro,
+#filtro2 {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#add{
+  
+  display: block;
+ 
+  margin: 0 auto;
+ 
+  font-family: "Manrope", ;
+  text-transform: uppercase;
+  background: #109304;
+  width: 30%;
+  border: 1;
+  border-color: white;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 15px;
+ margin: 0 auto;
+ margin-bottom: 90px;
+}
